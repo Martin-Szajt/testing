@@ -1,7 +1,7 @@
 var reference = (function thename(){
 
-  
-document.getElementById("cdn-button").addEventListener("click", function() {
+var button = document.getElementById("cdn-button");
+button.addEventListener("click", function() {
   alert("aca estoy");
 });
     
