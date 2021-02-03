@@ -1,2 +1,3 @@
-(   console.log("AAa");
+(
+  console.lasd();
 )();
