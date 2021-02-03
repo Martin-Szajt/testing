@@ -1,6 +1,7 @@
 var reference = (function thename(){
 
 var button = document.getElementById("cdn-button");
+button.appendChild('<h1>Clickeame</h1>');
 var token = button.getAttribute('data-token');
 button.addEventListener("click", function() {
   alert("aca estoy");
