@@ -1,13 +1,9 @@
 var reference = (function thename(){
 
-var element = document.querySelector('#cdn-button');
-element.addEventListener("Click", function() {
-    console.log("click");
+document.getElementById("cdn-button").addEventListener("click", function() {
+  alert("aca estoy");
 });
     
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("click");
-});
 console.log("autorun");
 }());
 
